@@ -1,0 +1,72 @@
+.thousandLine .table-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 60%;
+}
+
+table {
+    width: 90%;
+    height: 100%;
+    margin-left: 80px;
+
+    padding-top: 50px;
+
+    tr{
+        margin-top: 50px;
+        padding-bottom: 50px;
+        
+    }
+
+    td:first-child{
+        text-align: start;
+        padding-bottom: 50px;
+        width: 20%;
+    }
+
+    td:nth-child(2){
+        color: #8B8B8B;
+        font-family: "Inter-Regular", Helvetica;
+        font-size: 25px;
+        font-weight: 400;
+        text-align: left;
+        width: 50%;
+        padding-bottom: 50px;
+        /* text-align: start; */
+    }
+
+    td:last-child{
+        color: #8B8B8B;
+        font-family: "Inter-Regular", Helvetica;
+        font-size: 25px;
+        font-weight: 400;
+        text-align: center;
+        width: 20%;
+        padding-bottom: 50px;
+    }
+}
+
+.thousandLine .dot {
+    height: 25px;
+    width: 25px;
+    background-color: #8B8B8B;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.thousandLine .dot-passed {
+    height: 25px;
+    width: 25px;
+    background-color: #637e81;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.thousandLine .dot-failed {
+    height: 25px;
+    width: 25px;
+    background-color: #ee4b6a;
+    border-radius: 50%;
+    display: inline-block;
+}
